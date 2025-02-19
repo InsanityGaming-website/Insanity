@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link rel="stylesheet" href="css/style.css">
+    <title>Log In to Insanity Gaming</title>
+    <div class="stars"></div>
+    <div class="stars2"></div>
+    <div class="stars3"></div>
+    <div class="title">
+      <span>Insanity Gaming</span>
+    </div>
+
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="label" id="error"></div>
+	<form class="LogInForm" action="HomePage.html" id="LogIn" method="get">
+	    <div class="TextBox">
+	        <label class="label">Username:</label>
+	        <input class="TextBox" type="text" id="username" name="username" placeholder="Username" ></input>
+	    </div>
+	    <div>
+	        <label class="label">Email:</label>
+	        <input class="TextBox" type="email" id="email" name="email" placeholder="Email" ></input>
+	    </div>
+	    <div class="TextBox">
+	        <label class="label">Password:</label>
+	        <input class="TextBox" type="password" id="password" name="password" placeholder="Password"></input>
+	    </div>
+	    <br>
+	    <div>
+	        <button class="btn" type="submit">Submit</button>
+          <button class="btn" type="reset">reset
+	        </button>
+	    </div>
+	    <br>
+
+	    
+	</form>
+  <div>
+	    <button class="btn" onclick="LoginWithoutAccount()" id="LoginWithoutAccount">Log In Without Account
+	    </button>
+	</div>
+	
+	
+</body>
+
+</html>
+    
